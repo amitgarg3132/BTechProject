@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar"
+        android:background="#0099ff"
+        android:elevation="4dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE OF SHOPPING"
+        android:background="#d3d3d3"
+        android:textColor="#0099ff"
+        android:textSize="24dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" SELECT DATE "
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:id="@+id/select_date_picker"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#FF4000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAKE PHOTOS OF YOUR BILL"
+        android:background="#d3d3d3"
+        android:textColor="#0099ff"
+        android:textSize="24dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" LAUNCH CAMERA "
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:id="@+id/launchcamera"
+        android:textSize="24dp"
+        android:layout_gravity="center"
+        android:background="#FF4000"
+        android:textColor="#ffffff"
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:text="TIPS:"
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:text="- Hold your phone over the receipt and click a clear, legible photo."
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:text="- Bill too long to fit in one photo? No problem, start with the top and then click ADD Section till you reach the bottom."
+        />
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:text="- Pleae do not fold, write or mark on the bill, so that all details are clearly visible."
+        />
+</LinearLayout>

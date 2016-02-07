@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Savings"
+        android:textColor="#0099ff"
+        android:gravity="center"
+        android:background="#d3d3d3"
+        android:textSize="28dp"
+        android:padding="6dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="Receipts pending approval:"
+                />
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="1"
+                android:textSize="16sp"
+                android:gravity="right"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="Receipts approved(Till now):"
+                />
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="1"
+                android:textSize="16sp"
+                android:gravity="right"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="Account Balance:"
+                />
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="1"
+                android:textSize="16sp"
+                android:gravity="right"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="Total earned(lifetime) :"
+                />
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="1"
+                android:textSize="16sp"
+                android:gravity="right"/>
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" WITHDRAW BALANCE "
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:background="#0099ff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REFER FRIENDS , EARN MORE"
+            android:gravity="center"
+            android:textColor="#0099ff"
+            android:background="#d3d3d3"
+            android:textSize="26dp"
+            android:padding="6dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:text="Refer your friends and earn ₹50 when they upload their first bill go ahead and spread love. :) "
+                />
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SHARE "
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_gravity="center"
+            android:background="#0099ff"
+            />
+    </LinearLayout>
+
+</LinearLayout>
