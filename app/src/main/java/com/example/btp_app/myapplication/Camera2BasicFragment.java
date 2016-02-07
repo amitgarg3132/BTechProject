@@ -63,9 +63,7 @@ import java.util.concurrent.TimeUnit;
 public class Camera2BasicFragment extends Fragment
         implements View.OnClickListener, FragmentCompat.OnRequestPermissionsResultCallback {
 
-    /**
-     * Conversion from screen rotation to JPEG orientation.
-     */
+
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
     private static final int REQUEST_CAMERA_PERMISSION = 1;
     private static final String FRAGMENT_DIALOG = "dialog";
@@ -872,6 +870,9 @@ public class Camera2BasicFragment extends Fragment
             }
             case R.id.done_pic:{
 
+                if(mCallback!=null){
+                    mCallback.onClicked();
+                }
                 break;
             }
         }
@@ -998,4 +999,23 @@ public class Camera2BasicFragment extends Fragment
         }
     }
 
+    onDoneSelectedListener mCallback;
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+
+        // This makes sure that the container activity has implemented
+        // the callback interface. If not, it throws an exception
+        try {
+            mCallback = (onDoneSelectedListener) activity;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(activity.toString()
+                    + " must implement OnHeadlineSelectedListener");
+        }
+    }
+
+    public interface onDoneSelectedListener{
+        public void onClicked();
+    }
 }

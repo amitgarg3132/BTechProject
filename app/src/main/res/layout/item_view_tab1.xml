@@ -47,6 +47,6 @@
             android:layout_height="40dp"
             android:button="@drawable/like_selector"
             android:id="@+id/like_box"
-            android:checked="true"/>
+            />
     </LinearLayout>
 </LinearLayout>
