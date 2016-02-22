@@ -39,22 +39,22 @@ public class Tab1 extends Fragment {
         listDataHeader.add("Coming Soon..");
 
         // Adding child data
-        List<String> top250 = new ArrayList<String>();
-        top250.add("The Shawshank Redemption");
-        top250.add("The Godfather");
-        top250.add("The Godfather: Part II");
-        top250.add("Pulp Fiction");
-        top250.add("The Good, the Bad and the Ugly");
-        top250.add("The Dark Knight");
-        top250.add("12 Angry Men");
+        List<String> Beverages = new ArrayList<String>();
+        Beverages.add("The Shawshank Redemption");
+        Beverages.add("The Godfather");
+        Beverages.add("The Godfather: Part II");
+        Beverages.add("Pulp Fiction");
+        Beverages.add("The Good, the Bad and the Ugly");
+        Beverages.add("The Dark Knight");
+        Beverages.add("12 Angry Men");
 
-        List<String> nowShowing = new ArrayList<String>();
-        nowShowing.add("The Conjuring");
-        nowShowing.add("Despicable Me 2");
-        nowShowing.add("Turbo");
-        nowShowing.add("Grown Ups 2");
-        nowShowing.add("Red 2");
-        nowShowing.add("The Wolverine");
+        List<String> Food = new ArrayList<String>();
+        Food.add("The Conjuring");
+        Food.add("Despicable Me 2");
+        Food.add("Turbo");
+        Food.add("Grown Ups 2");
+        Food.add("Red 2");
+        Food.add("The Wolverine");
 
         List<String> comingSoon = new ArrayList<String>();
         comingSoon.add("2 Guns");
@@ -63,8 +63,8 @@ public class Tab1 extends Fragment {
         comingSoon.add("The Canyons");
         comingSoon.add("Europa Report");
 
-        listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
-        listDataChild.put(listDataHeader.get(1), nowShowing);
+        listDataChild.put(listDataHeader.get(0), Beverages); // Header, Child data
+        listDataChild.put(listDataHeader.get(1), Food);
         listDataChild.put(listDataHeader.get(2), comingSoon);
     }
     @Override
