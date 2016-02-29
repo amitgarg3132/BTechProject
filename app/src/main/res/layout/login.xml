@@ -68,6 +68,13 @@
         android:onClick="register"
         />
 
+    <!--<ImageButton
+        android:id="@+id/btn_search"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:src="@drawable/like_filled"
+        style="@style/Widget.AppCompat.ActionButton" />-->
+
     <TextView android:id="@+id/link_signup"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
